@@ -1,0 +1,29 @@
+.row{
+  min-height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+}
+
+.col {
+  width: 50%;
+  background-color: #f1b1b1;
+  padding: 15px;
+  flex: 1;
+}
+
+.col:nth-child(even){
+  background-color: #b0f0a3;
+  flex: 1;
+}
+
+.styled {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+}
